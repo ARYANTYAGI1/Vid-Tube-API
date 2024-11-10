@@ -1,0 +1,26 @@
+# Ignore artifacts:
+build/
+dist/
+node_modules/
+
+# Ignore configuration and environment files:
+*.config.js
+*.config.json
+.env
+.env.*
+
+# Ignore any files in specific directories:
+public/
+coverage/
+logs/
+
+# Ignore specific file types:
+*.min.js
+*.min.css
+
+# Ignore assets:
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
